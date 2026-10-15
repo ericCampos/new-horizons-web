@@ -1,0 +1,11 @@
+# Human zones: code that Eric writes by hand (instance 2 of each pattern). Claude Code is blocked here by hooks.
+# Format: `glob | anchor`. The glob is matched against the path relative to this repo.
+# The anchor is a literal fragment the Bash hook looks for (it cannot evaluate globs inside commands).
+src/pages/today/**              | pages/today/
+src/pages/quiz/**               | pages/quiz/
+src/features/create-tramo/**    | features/create-tramo/
+src/features/explain/**         | features/explain/
+src/state/**                    | src/state/
+e2e/second-*.spec.ts            | e2e/second-
+Dockerfile                      | web/Dockerfile
+.github/workflows/release.yml   | workflows/release.yml
